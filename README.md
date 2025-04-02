@@ -37,8 +37,5 @@
 </div>
 
 ###
-
 <br clear="both">
-
-
 ###
