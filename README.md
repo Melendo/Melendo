@@ -1,4 +1,4 @@
-<h2 align="left">Bienvenidos a los curiosos 👋! </br> Soy Melendo y oficialmente ya soy un Ingeniero de Software, aunque prefiero que se me juzgue por mis proyectos antes que por un titulo... </h2>
+<h2 align="left">Bienvenidos a los curiosos 👋! </br></br> Soy Melendo y oficialmente ya soy un Ingeniero de Software, aquí se pueden ver la mayoría de mis proyectitos y cacharreos.</h2>
 
 ###
 
