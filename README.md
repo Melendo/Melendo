@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! </br> My name is Melendo and I'm a Software Engineer student at UCM, from Madrid</h2>
+<h2 align="left">Bienvenidos a los curiosos 👋! </br> Soy Melendo y oficialmente ya soy un Ingeniero de Software, aunque prefiero que se me juzgue por mis proyectos antes que por un titulo... </h2>
 
 ###
 
