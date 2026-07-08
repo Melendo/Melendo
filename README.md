@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  <samp>Bienvenidos a los presentes! </br> Me considero un apasionado por la informática y la tecnología y aquí se pueden ver la mayoria de mis proyectos y cacharreos que he ido haciendo a lo largo del tiempo. Intentaré mantenerlo actualizado con todo lo nuevo que vaya descubriendo.</samp>
+  <samp>Bienvenidos a los curiosos! </br> Me considero un apasionado por la informática y la tecnología y aquí se pueden ver la mayoria de mis proyectos y cacharreos que he ido haciendo a lo largo del tiempo. Intentaré mantenerlo actualizado con todo lo nuevo que vaya descubriendo.</samp>
 </p>
 
 ---
