@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 60" width="470" height="60">
+  <style>
+    .text-melendo {
+      font-family: 'JetBrains Mono', 'Fira Code', 'IBM Plex Mono', Courier, monospace;
+      font-weight: 700;
+      fill: #e8e4d9;
+    }
+    @media (prefers-color-scheme: light) {
+      .text-melendo {
+        fill: #282828;
+      }
+    }
+  </style>
+  <!-- Left stripes -->
+  <rect x="0" y="10" width="74" height="10" fill="#8ec07c" />
+  <rect x="0" y="20" width="74" height="10" fill="#458588" />
+  <rect x="0" y="30" width="74" height="10" fill="#d79921" />
+  <rect x="0" y="40" width="74" height="10" fill="#cc241d" />
+
+  <!-- Text -->
+  <text x="80" y="30" font-size="50" class="text-melendo" dominant-baseline="central" textLength="270" lengthAdjust="spacingAndGlyphs">Proyectos</text>
+
+  <!-- Right stripes (staircase) -->
+  <rect x="356" y="10" width="44" height="10" fill="#8ec07c" />
+  <rect x="356" y="20" width="66" height="10" fill="#458588" />
+  <rect x="356" y="30" width="88" height="10" fill="#d79921" />
+  <rect x="356" y="40" width="110" height="10" fill="#cc241d" />
+</svg>

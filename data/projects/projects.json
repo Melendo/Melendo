@@ -1,0 +1,146 @@
+[
+  {
+    "id": "climbit",
+    "title": "ClimbIt",
+    "role": "Aplicación Web Progresiva",
+    "stack": [
+      "JavaScript",
+      "PWA",
+      "SPA",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "description": "ClimbIt es una PWA para la gestión de rocódromos y el registro de sesiones de escalada. Permite a los usuarios seguir su progreso y competir con amigos.",
+    "links": [
+      {
+        "label": "Aplicación",
+        "url": "https://app.climbit.es"
+      },
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/ClimbIt"
+      },
+      {
+        "label": "Memoria TFG",
+        "url": "https://github.com/Melendo/MemoriaClimbIt"
+      },
+      {
+        "label": "Presentación",
+        "url": "https://www.youtube.com/watch?v=B736ADEP0yQ"
+      }
+    ]
+  },
+  {
+    "id": "botmeriendo",
+    "title": "BotMeriendo",
+    "role": "Bot de Discord",
+    "stack": [
+      "Python",
+      "Docker",
+      "Discord"
+    ],
+    "description": "Bot de música y utilidades para Discord con soporte para YouTube y control de colas. Está modularizado y es fácil de desplegar usando Docker.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/BotMeriendo"
+      }
+    ]
+  },
+  {
+    "id": "keeperly",
+    "title": "Keeperly",
+    "role": "Aplicación móvil",
+    "stack": [
+      "Java",
+      "Android"
+    ],
+    "description": "Aplicación Android nativa para automatizar finanzas personales. Sincroniza automáticamente los gastos de PayPal Sandbox y permite planificar presupuestos y seguir metas en tiempo real.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/Keeperly"
+      }
+    ]
+  },
+  {
+    "id": "clublagartos",
+    "title": "Web del Club Lagartos",
+    "role": "Página web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Sitio web oficial del Club Lagartos, plataforma responsiva para centralizar la información de su escuela y equipos de Trail Running y Rally MTB.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/ClubLagartos"
+      },
+      {
+        "label": "Web",
+        "url": "https://www.clublagartos.org/"
+      }
+    ]
+  },
+  {
+    "id": "pablodlp",
+    "title": "Portfolio de Fotografía - PabloDLP",
+    "role": "Portfolio web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Portfolio web personal del fotógrafo PabloDLP. Presenta una galería interactiva y moderna especializada en deportes de alto rendimiento, naturaleza y paisajes.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/PabloDLP"
+      },
+      {
+        "label": "Web",
+        "url": "https://pablodlp.com/"
+      }
+    ]
+  },
+  {
+    "id": "salnaya",
+    "title": "Salnaya",
+    "role": "Carta web ",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Menú digital interactivo y responsive con soporte para modo oscuro diseñado para la Cafetería Salnaya.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/Salnaya"
+      },
+      {
+        "label": "Web",
+        "url": "https://salnaya.es/"
+      }
+    ]
+  },
+  {
+    "id": "mythicalmingle",
+    "title": "MythicalMingle",
+    "role": "Videojuego web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Plataforma web para coleccionar álbumes de cromos virtuales. Los usuarios abren sobres, juegan trivias para ganar monedas e intercambian cromos con amigos.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/MythicalMingle"
+      }
+    ]
+  }
+]
