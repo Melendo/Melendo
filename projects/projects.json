@@ -1,0 +1,146 @@
+[
+  {
+    "id": "climbit",
+    "title": "ClimbIt",
+    "role": "Aplicación Web Progresiva",
+    "stack": [
+      "JavaScript",
+      "PWA",
+      "SPA",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "description": "ClimbIt es una Aplicación Web Progresiva (PWA) orientada a la gestión de rocódromos y al registro de sesiones de escalada. Nacida como Trabajo de Fin de Grado, permite a los usuarios gestionar su perfil y medir detalladamente su progreso, fomentando así la competición entre amigos.",
+    "links": [
+      {
+        "label": "Aplicación",
+        "url": "https://app.climbit.es"
+      },
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/ClimbIt"
+      },
+      {
+        "label": "Memoria TFG",
+        "url": "https://github.com/Melendo/MemoriaClimbIt"
+      },
+      {
+        "label": "Presentación",
+        "url": "https://www.youtube.com/watch?v=B736ADEP0yQ"
+      }
+    ]
+  },
+  {
+    "id": "botmeriendo",
+    "title": "BotMeriendo",
+    "role": "Bot de Discord",
+    "stack": [
+      "Python",
+      "Docker",
+      "Discord"
+    ],
+    "description": "Bot de música y utilidades para Discord, modularizado y listo para desplegar de forma sencilla con Docker. Permite la reproducción de música desde YouTube, control de colas y optimización de recursos mediante auto-desconexión.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/BotMeriendo"
+      }
+    ]
+  },
+  {
+    "id": "keeperly",
+    "title": "Keeperly",
+    "role": "Aplicación móvil",
+    "stack": [
+      "Java",
+      "Android"
+    ],
+    "description": "Keeperly es una aplicación móvil nativa para Android diseñada para simplificar y automatizar la gestión de finanzas personales. Resuelve el problema del registro manual tedioso de gastos mediante la sincronización automatizada con cuentas de PayPal Sandbox, permitiendo a los usuarios planificar presupuestos personalizados, organizar transacciones y realizar un seguimiento claro de sus metas financieras en tiempo real.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/Keeperly"
+      }
+    ]
+  },
+  {
+    "id": "clublagartos",
+    "title": "Web del Club Lagartos",
+    "role": "Página web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Sitio web oficial del **Club Lagartos**, una plataforma digital responsiva y moderna diseñada para centralizar la información de sus tres pilares deportivos principales: la Escuela Deportiva, el equipo de Trail Running y el Rally MTB. Resuelve la necesidad de comunicación y captación del club ofreciendo una experiencia de usuario premium e inmersiva.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/ClubLagartos"
+      },
+      {
+        "label": "Web",
+        "url": "https://www.clublagartos.org/"
+      }
+    ]
+  },
+  {
+    "id": "pablodlp",
+    "title": "Portfolio de Fotografía - PabloDLP",
+    "role": "Portfolio web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Sitio web personal y portfolio profesional de Pablo de la Puerta (PabloDLP), fotógrafo especializado en deportes de alto rendimiento, naturaleza y paisajes. Ofrece una galería interactiva y moderna para mostrar su trabajo visualmente impactante.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/PabloDLP"
+      },
+      {
+        "label": "Web",
+        "url": "https://pablodlp.com/"
+      }
+    ]
+  },
+  {
+    "id": "salnaya",
+    "title": "Salnaya",
+    "role": "Carta web ",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Menú digital interactivo y responsive para la Cafetería Salnaya, diseñado para ofrecer una visualización clara y moderna de la oferta gastronómica del establecimiento con soporte para modo oscuro.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/Salnaya"
+      },
+      {
+        "label": "Web",
+        "url": "https://salnaya.es/"
+      }
+    ]
+  },
+  {
+    "id": "mythicalmingle",
+    "title": "MythicalMingle",
+    "role": "Videojuego web",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "description": "Mythical Mingle es una plataforma web interactiva y nostálgica que revive la clásica tradición de coleccionar álbumes de cromos. A través de la apertura de sobres virtuales, trivias educativas para ganar monedas y el intercambio de cromos con amigos, los usuarios pueden completar colecciones temáticas en un entorno digital moderno y social.",
+    "links": [
+      {
+        "label": "Repositorio",
+        "url": "https://github.com/Melendo/MythicalMingle"
+      }
+    ]
+  }
+]
