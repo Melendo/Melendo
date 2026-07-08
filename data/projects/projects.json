@@ -10,7 +10,7 @@
       "Docker",
       "PostgreSQL"
     ],
-    "description": "ClimbIt es una Aplicación Web Progresiva (PWA) orientada a la gestión de rocódromos y al registro de sesiones de escalada. Nacida como Trabajo de Fin de Grado, permite a los usuarios gestionar su perfil y medir detalladamente su progreso, fomentando así la competición entre amigos.",
+    "description": "ClimbIt es una PWA para la gestión de rocódromos y el registro de sesiones de escalada. Permite a los usuarios seguir su progreso y competir con amigos.",
     "links": [
       {
         "label": "Aplicación",
@@ -39,7 +39,7 @@
       "Docker",
       "Discord"
     ],
-    "description": "Bot de música y utilidades para Discord, modularizado y listo para desplegar de forma sencilla con Docker. Permite la reproducción de música desde YouTube, control de colas y optimización de recursos mediante auto-desconexión.",
+    "description": "Bot de música y utilidades para Discord con soporte para YouTube y control de colas. Está modularizado y es fácil de desplegar usando Docker.",
     "links": [
       {
         "label": "Repositorio",
@@ -55,7 +55,7 @@
       "Java",
       "Android"
     ],
-    "description": "Keeperly es una aplicación móvil nativa para Android diseñada para simplificar y automatizar la gestión de finanzas personales. Resuelve el problema del registro manual tedioso de gastos mediante la sincronización automatizada con cuentas de PayPal Sandbox, permitiendo a los usuarios planificar presupuestos personalizados, organizar transacciones y realizar un seguimiento claro de sus metas financieras en tiempo real.",
+    "description": "Aplicación Android nativa para automatizar finanzas personales. Sincroniza automáticamente los gastos de PayPal Sandbox y permite planificar presupuestos y seguir metas en tiempo real.",
     "links": [
       {
         "label": "Repositorio",
@@ -72,7 +72,7 @@
       "CSS",
       "JavaScript"
     ],
-    "description": "Sitio web oficial del **Club Lagartos**, una plataforma digital responsiva y moderna diseñada para centralizar la información de sus tres pilares deportivos principales: la Escuela Deportiva, el equipo de Trail Running y el Rally MTB. Resuelve la necesidad de comunicación y captación del club ofreciendo una experiencia de usuario premium e inmersiva.",
+    "description": "Sitio web oficial del Club Lagartos, plataforma responsiva para centralizar la información de su escuela y equipos de Trail Running y Rally MTB.",
     "links": [
       {
         "label": "Repositorio",
@@ -93,7 +93,7 @@
       "CSS",
       "JavaScript"
     ],
-    "description": "Sitio web personal y portfolio profesional de Pablo de la Puerta (PabloDLP), fotógrafo especializado en deportes de alto rendimiento, naturaleza y paisajes. Ofrece una galería interactiva y moderna para mostrar su trabajo visualmente impactante.",
+    "description": "Portfolio web personal del fotógrafo PabloDLP. Presenta una galería interactiva y moderna especializada en deportes de alto rendimiento, naturaleza y paisajes.",
     "links": [
       {
         "label": "Repositorio",
@@ -114,7 +114,7 @@
       "CSS",
       "JavaScript"
     ],
-    "description": "Menú digital interactivo y responsive para la Cafetería Salnaya, diseñado para ofrecer una visualización clara y moderna de la oferta gastronómica del establecimiento con soporte para modo oscuro.",
+    "description": "Menú digital interactivo y responsive con soporte para modo oscuro diseñado para la Cafetería Salnaya.",
     "links": [
       {
         "label": "Repositorio",
@@ -135,7 +135,7 @@
       "CSS",
       "JavaScript"
     ],
-    "description": "Mythical Mingle es una plataforma web interactiva y nostálgica que revive la clásica tradición de coleccionar álbumes de cromos. A través de la apertura de sobres virtuales, trivias educativas para ganar monedas y el intercambio de cromos con amigos, los usuarios pueden completar colecciones temáticas en un entorno digital moderno y social.",
+    "description": "Plataforma web para coleccionar álbumes de cromos virtuales. Los usuarios abren sobres, juegan trivias para ganar monedas e intercambian cromos con amigos.",
     "links": [
       {
         "label": "Repositorio",

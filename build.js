@@ -2,7 +2,8 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 const rootDir = process.cwd();
-const projectsJsonPath = path.join(rootDir, 'projects', 'projects.json');
+const projectsJsonPath = path.join(rootDir, 'data', 'projects', 'projects.json');
+const profileJsonPath = path.join(rootDir, 'data', 'projects', 'profile.json');
 const templatePath = path.join(rootDir, 'README.template.md');
 const readmePath = path.join(rootDir, 'README.md');
 
@@ -17,22 +18,25 @@ function slugify(value) {
 
 async function run() {
   try {
-    // 1. Read projects.json
+    // 1. Read profile.json
+    const rawProfile = await fs.readFile(profileJsonPath, 'utf8');
+    const profile = JSON.parse(rawProfile);
+
+    // 2. Read projects.json
     const rawProjects = await fs.readFile(projectsJsonPath, 'utf8');
     const projects = JSON.parse(rawProjects);
 
     let projectsHtml = '';
 
-    // 2. Process each project
+    // 3. Process each project
     for (const project of projects) {
       const projectId = project.id;
-      const projectDir = path.join(rootDir, 'projects', projectId);
+      const projectDir = path.join(rootDir, 'data', 'projects', projectId);
       const webpPath = path.join(projectDir, 'gen.webp');
       const svgPath = path.join(projectDir, 'logo_with_corners.svg');
 
       let hasLogo = false;
       try {
-        // Check if gen.webp exists
         await fs.access(webpPath);
         hasLogo = true;
       } catch {
@@ -40,11 +44,9 @@ async function run() {
       }
 
       if (hasLogo) {
-        // Read webp as base64
         const imgBuffer = await fs.readFile(webpPath);
         const base64Img = imgBuffer.toString('base64');
 
-        // Create logo_with_corners.svg
         const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
   <style>
     .corner {
@@ -70,7 +72,6 @@ async function run() {
         console.log(`Generated ${svgPath}`);
       }
 
-      // 3. Build HTML block for project
       const slug = slugify(project.title);
       const url = `https://melendo.dev/projects/${slug}/`;
       const techStackStr = project.stack.map(tech => `· ${tech}`).join(' &nbsp;');
@@ -79,7 +80,7 @@ async function run() {
 ---
 
 <p><small><samp>${project.role.toUpperCase()}</samp></small></p>
-${hasLogo ? `<img align="right" src="projects/${projectId}/logo_with_corners.svg" width="160" height="160" hspace="15" alt="${project.title}" />` : ''}
+${hasLogo ? `<img align="right" src="data/projects/${projectId}/logo_with_corners.svg" width="160" height="160" hspace="15" alt="${project.title}" />` : ''}
 <h3><strong><samp>${project.title.toUpperCase()}</samp></strong></h3>
 
 <p><samp>${project.description}</samp></p>
@@ -90,12 +91,21 @@ ${hasLogo ? `<img align="right" src="projects/${projectId}/logo_with_corners.svg
 `;
     }
 
-    // 4. Read template and inject projects
-    const templateContent = await fs.readFile(templatePath, 'utf8');
-    const finalContent = templateContent.replace('<!-- PROJECTS -->', projectsHtml);
+    // 4. Read template and inject profile and projects
+    let templateContent = await fs.readFile(templatePath, 'utf8');
+    
+    // Replace placeholders
+    templateContent = templateContent
+      .replace('{{HEADLINE}}', profile.headline)
+      .replace('{{ABOUT}}', profile.about)
+      .replace('{{EMAIL}}', profile.email)
+      .replace('{{LINKEDIN}}', profile.linkedin)
+      .replace('{{GITHUB}}', profile.github)
+      .replace('{{YOUTUBE}}', profile.youtube)
+      .replace('<!-- PROJECTS -->', projectsHtml);
 
     // 5. Write final README.md
-    await fs.writeFile(readmePath, finalContent, 'utf8');
+    await fs.writeFile(readmePath, templateContent, 'utf8');
     console.log(`Successfully updated ${readmePath}`);
 
   } catch (error) {
